@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+      body {
+        height: 500px;
+        width: 360px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='new_user' class="container">
+      <br>
+      <h3 style="text-align: center;">Welcome to <span style="color:red;">You</span>2Share</h3>
+      <br>
+      <div class="container">
+        <div class="row">
+            <h6> Please share us your email address which your friend can use to share videos with you</h6>
+        </div>
+        <img style="width:100%; height:100%;" src="https://blog.1password.com/articles/password-sharing/prepare_your_password_for_sharing.png"/>
+        <div class="row">
+          <input type="text" id="email" class="form-control" style="margin-bottom: 5px;" placeholder="Email" aria-label="Email">
+        </div>
+        
+        <div class="row">
+          <button id="submit_btn_pop" class="btn btn-outline-success">Login</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="old_user" class="container">
+      <br>
+      <h3 style="text-align: center;">Welcome to <span style="color:red;">You</span>2Share</h3>
+      <div class="container">
+        <div class="row" > 
+          <h6 id="user_name"> </h6>
+          <div style="max-height: 350px; overflow: auto;" id="video_list">
+
+            <!-- <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-danger">Play</a>
+                </div>
+              </div>
+            </div> -->
+  
+          </div>
+        </div>
+
+        <div class="row">
+          <button id='logout' style="position:fixed; bottom:5px; width:94%;" class="btn btn-outline-primary"> Logout </button>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="popup.js"></script>
+    <script src="/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
