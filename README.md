@@ -2,6 +2,8 @@
 
 Chrome extension for sharing youtube videos with friends. 
 
+This project aims to have a common place for all youtube videos shared by friends and not get lost in between chats.
+
 ## How to use the extension?
 1. Download the Project 
 2. Go to Extension settings in chrome [URL](chrome://extensions/)
