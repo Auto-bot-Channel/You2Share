@@ -10,8 +10,10 @@ Chrome extension for sharing youtube videos with friends.
    ![](extension_page/img/Screenshot_dev_01.png)
    <br>
    *on top right corner* 
-4.  Now you will get a new section right below the search bar
+4. Now you will get a new section right below the search bar
+   <br>
    ![](extension_page/img/Screenshot_dev_01.png)
+   <br>
    *Click on Load unpacked button and locate the UI folder*
 
 ## What can you contribute? 
